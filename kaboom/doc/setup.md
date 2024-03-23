@@ -1,6 +1,6 @@
 # Installation
 
-The most easy way to get started with Kaboom is to use the CLI tool, which will generate a Kaboom project for you.
+The easiest way to get started with Kaboom is to use the CLI tool, which will generate a Kaboom project for you.
 
   ```sh
 $  npm  init  kaboom  --  mygame
@@ -246,5 +246,5 @@ A lighter version that only contains the barebone HTML and JS file.
 
 Cool! Now you should be all ready to start using Kaboom. Try this [intro tutorial](/doc/intro) if you don't know how to start.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk5ODE1Mzc1LDE0Njc5NTg5NzJdfQ==
+eyJoaXN0b3J5IjpbMjAwNjIyMjQyNiwxNDY3OTU4OTcyXX0=
 -->
