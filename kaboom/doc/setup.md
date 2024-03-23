@@ -2,7 +2,7 @@
 
 The easiest way to get started with Kaboom is to use the CLI tool, which will generate a Kaboom project for you.
 
-  ```sh
+```sh
 $  npm  init  kaboom  --  mygame
 $  cd mygame
 ```
@@ -243,5 +243,5 @@ A lighter version that only contains the barebone HTML and JS file.
 
 Cool! Now you should be all ready to start using Kaboom. Try this [intro tutorial](/doc/intro) if you don't know how to start.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzIxMTM0OCwxNDY3OTU4OTcyXX0=
+eyJoaXN0b3J5IjpbMTY2NDQ5Mzk5NiwxNDY3OTU4OTcyXX0=
 -->
