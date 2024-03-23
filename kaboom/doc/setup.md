@@ -4,15 +4,12 @@ The easiest way to get started with Kaboom is to use the CLI tool, which will ge
 
   ```sh
 $  npm  init  kaboom  --  mygame
+$  cd mygame
 ```
 
-This will create a directory `my_game` containing everything you need to start a Kaboom project, go to that directory and run `npm run dev` to start the development server, and edit `src/main.js` to develop the game.
-
-  
+This will create the directory `mygame` containing everything you need to start a Kaboom project, run `npm run dev` to start the development server, and edit `src/main.js` to develop your game.
 
 to see all options, run
-
-  
 
 ```sh
 
@@ -246,5 +243,5 @@ A lighter version that only contains the barebone HTML and JS file.
 
 Cool! Now you should be all ready to start using Kaboom. Try this [intro tutorial](/doc/intro) if you don't know how to start.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjIyMjQyNiwxNDY3OTU4OTcyXX0=
+eyJoaXN0b3J5IjpbLTEwNzIxMTM0OCwxNDY3OTU4OTcyXX0=
 -->
