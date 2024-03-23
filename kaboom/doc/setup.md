@@ -27,40 +27,23 @@ You can also get the package from a CDN.
 import  kaboom  from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
 
 // initialize kaboom context
-
 kaboom();
 
-  
-
-// add a piece of text at position (120, 80)
-
+// add a piece of text at position
 add([
-
-text("hello"),
-
-pos(120, 80),
-
+	text("hello"),
+	pos(120, 80),
 ]);
-
-  
-
 </script>
-
 ```
 
   
 
 You can paste this directly in a `.html` file and open with the browser. This will give you the standard fullscreen Kaboom canvas. Feel free to put more HTML in there.
 
-  
-
 The Kaboom package is deployed to NPM, so it's availbale on various CDN providers, like `unpkg`, `skypack`, `jsdelivr`, etc.
 
-  
-
 The example above is using Kaboom with es6 module, you can also just include it with a `<script>` tag
-
-  
 
 ```html
 
@@ -68,15 +51,9 @@ The example above is using Kaboom with es6 module, you can also just include it 
 
 ```
 
-  
-
 ## Using NPM
 
-  
-
 With NPM it's easier have some other packages and do version control, also it's easier to get typescript autocomplete support and stuff, but it requires a bit more setup.
-
-  
 
 ```sh
 
@@ -84,31 +61,19 @@ $  npm  install  kaboom
 
 ```
 
-  
-
 but you'll need to use a bundler to use Kaboom with NPM. There's a lot of options like `esbuild`, `webpack`, `parcel`, `vite`, etc, here I'll give a short example of how to use Kaboom with [`esbuild`](https://esbuild.github.io/).
 
-  
-
 Once you have `esbuild` installed, and you have this in a `.js` or `.ts` file:
-
-  
 
 ```js
 
 import  kaboom  from  "kaboom";
 
-  
-
 kaboom();
 
-  
-
 add([
-
-text("hello"),
-
-pos(120, 80),
+	text("hello"),
+	pos(120, 80),
 
 ]);
 
@@ -230,5 +195,5 @@ A lighter version that only contains the barebone HTML and JS file.
 
 Cool! Now you should be all ready to start using Kaboom. Try this [intro tutorial](/doc/intro) if you don't know how to start.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDU2MTE5NywxNDY3OTU4OTcyXX0=
+eyJoaXN0b3J5IjpbMTA2MTE2NjUxMywxNDY3OTU4OTcyXX0=
 -->
