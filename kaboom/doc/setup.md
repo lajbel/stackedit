@@ -7,9 +7,9 @@ $  npm  init  kaboom  --  mygame
 $  cd mygame
 ```
 
-This will create the directory `mygame` containing everything you need to start a Kaboom project, run `npm run dev` to start the development server, and edit `src/main.js` to develop your game.
+This will create the directory `mygame` containing everything you need to start a Kaboom project, run `npm run dev` to start the development server. Edit `src/main.js` to develop your game.
 
-to see all options, run
+To see all options, run
 
 ```sh
 
@@ -17,27 +17,14 @@ $  npm  init  kaboom  --  --help
 
 ```
 
-  
+## Using a CDN
 
-## Using CDN
-
-  
-
-Getting the package from a CDN provider is the quickest and easiest way to start using Kaboom.
-
-  
+You can also get the package from a CDN.
 
 ```html
-
 <script  type="module">
-
-  
-
-// import kaboom lib
-
-import  kaboom  from  "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
-
-  
+// import kaboom.js
+import  kaboom  from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
 
 // initialize kaboom context
 
@@ -243,5 +230,5 @@ A lighter version that only contains the barebone HTML and JS file.
 
 Cool! Now you should be all ready to start using Kaboom. Try this [intro tutorial](/doc/intro) if you don't know how to start.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NDQ5Mzk5NiwxNDY3OTU4OTcyXX0=
+eyJoaXN0b3J5IjpbMTMyMDU2MTE5NywxNDY3OTU4OTcyXX0=
 -->
